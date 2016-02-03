@@ -6,7 +6,7 @@ Each time it reloads it will show on the console errors or warnings provided hin
 
 ## Prerequisites 
 
-This repo assumes that you have _[node.js](https://nodejs.org/en/))_ and _[npm](https://docs.npmjs.com/)_ installed and somewhere on your **PATH**
+This repo assumes that you have _[node.js](https://nodejs.org/en/)_ and _[npm](https://docs.npmjs.com/)_ installed and somewhere on your **PATH**
 
 For instructions on how to install node.js check the [official page](https://nodejs.org/en/download/) for your platform
 
