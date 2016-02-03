@@ -1,0 +1,31 @@
+{
+  "name": "lrserver",
+  "version": "1.0.0",
+  "description": "gulp server with live reload for frontend experiments",
+  "main": null,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "//": "This is not intended as a nodejs package",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjelosua/lrserver.git"
+  },
+  "author": "Juan Elosua <juan.elosua@gmail.com>",
+  "contributors": [
+    "Juan Elosua <juan.elosua@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjelosua/lrserver/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0"
+  },
+  "dependencies": {}
+}
