@@ -23,24 +23,30 @@ There are two configuration variables to tweak inside the _gulpfile.js_
 1. Clone the repo in the folder where you have the web application you want to test
 
 ```
-$ git clone https://github.com/jjelosua/lrserver
+$ git clone --depth=1 https://github.com/jjelosua/lrserver
 ```
 
-2. Get into the recently created _lrserver_ folder
+2. (Optional) Delete git references if they bug you
+
+```
+$ rm -rf lrserver/.git
+``
+
+3. Get into the recently created _lrserver_ folder
 
 ```
 $ cd lrserver
 ```
 
-2. Install dependencies with npm
+4. Install dependencies with npm
 
 ```
 $ npm install
 ```
 
-3. Review the configuration to suit your project, change the variables if needed
+5. Review the configuration to suit your project, change the variables if needed
 
-4. Run the server
+6. Run the server
 
 ```
 $ gulp
