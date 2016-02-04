@@ -20,10 +20,22 @@ There are two configuration variables to tweak inside the _gulpfile.js_
 
 ## Instructions
 
-1. Clone the repo in the folder where you have the web application you want to test
+1. Clone the repo next to the folder where you have the web application you want to test
 
     ```
     $ git clone --depth=1 https://github.com/jjelosua/lrserver
+    ```
+    
+    You should end up with something like:
+    
+    ```
+    .
+    +-- lrserver/
+    |   +-- gulpfile.js
+    |   +-- package.json
+    |   +-- ...
+    +-- your_app/
+        +-- ...
     ```
 
 2. (Optional) Delete git references if they bug you
