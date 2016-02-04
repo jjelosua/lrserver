@@ -30,7 +30,7 @@ $ git clone --depth=1 https://github.com/jjelosua/lrserver
 
 ```
 $ rm -rf lrserver/.git
-``
+```
 
 3. Get into the recently created _lrserver_ folder
 
