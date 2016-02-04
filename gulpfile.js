@@ -11,7 +11,7 @@ var conf = {
 
 // test JS
 gulp.task('test_js', function(){
-    return gulp.src(['js/**/*.js'], { cwd: conf.app_cwd })
+    return gulp.src(['**/*.js'], { cwd: conf.app_cwd })
         .pipe(jshint())
         .pipe(jshint.reporter('default'))
         .pipe(jshint.reporter(stylish));
