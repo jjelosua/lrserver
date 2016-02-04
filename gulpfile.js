@@ -38,7 +38,7 @@ gulp.task('watch', function () {
 });
 
 // development server
-gulp.task('server', ['connect', 'watch']);
+gulp.task('server', ['connect', 'watch', 'test_js']);
 
 // default task
 gulp.task('default', ['server']);
